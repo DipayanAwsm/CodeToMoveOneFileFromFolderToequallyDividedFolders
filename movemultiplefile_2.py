@@ -1,7 +1,7 @@
 import os
 import shutil
 print("hi")
-foldercapacity=100
+foldercapacity=100 # this how many files be in the folder
 def move_files(source_folder, destination_folders):
     # Ensure source folder exists
     if not os.path.exists(source_folder):
